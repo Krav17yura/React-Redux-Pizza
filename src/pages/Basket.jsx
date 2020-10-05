@@ -3,11 +3,11 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 import cartEmptyImage from '../assets/img/empty-cart.png';
-import Button from '../components/Button'
-import { CartItem } from '../components';
-import { clearCart, removeCartItem, plusCartItem, minusCartItem } from '../redux/action/cart';
+import Button from '../components/button'
+import  CartItem  from '../components/basketItem';
+import { clearCart, removeCartItem, plusCartItem, minusCartItem } from '../redux/action/basket';
 
-function Cart() {
+function Basket() {
     const dispatch = useDispatch();
     const { totalPrice, totalCount, items } = useSelector(({ cart }) => cart);
 
@@ -186,4 +186,4 @@ function Cart() {
     );
 }
 
-export default Cart;
+export default Basket;
