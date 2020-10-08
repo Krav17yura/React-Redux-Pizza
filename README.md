@@ -1,5 +1,5 @@
 ## Preview
-https://reactreduxhooks-todo.web.app/
+https://react-redux-pizza.web.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
